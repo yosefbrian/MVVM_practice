@@ -17,5 +17,6 @@
               tools:layout="@layout/fragment_detail">
         <action android:id="@+id/actionList"
                 app:destination="@id/listFragment"/>
+        <argument android:name="animal" app:argType="com.yudha.navigation.model.Animal"/>
     </fragment>
 </navigation>
